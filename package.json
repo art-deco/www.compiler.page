@@ -32,7 +32,9 @@
   },
   "homepage": "https://www.compiler.page",
   "devDependencies": {
+    "@artdeco/snapsvg-animator": "^0.3.1",
     "documentary": "^1.37.1",
+    "snapsvg": "^0.5.1",
     "splendid": "^1.18.1",
     "zoroaster": "^4.3.0"
   }
