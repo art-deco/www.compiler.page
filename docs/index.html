@@ -1,13 +1,156 @@
 <!doctype html>
-<html>
+<html class="no-js b-Op" lang="en">
   <head>
-    <title>@artdeco/www.compiler.page</title>
+    <meta charset="utf-8">
+    <title>Www.compiler.page</title>
+    <meta content="The 150-160 characters search engine meta:description" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link sizes="57x57" rel="apple-touch-icon" href="/img/favicon-57.png">
+    <link sizes="76x76" rel="apple-touch-icon" href="/img/favicon-76.png">
+    <link sizes="120x120" rel="apple-touch-icon" href="/img/favicon-120.png">
+    <link sizes="152x152" rel="apple-touch-icon" href="/img/favicon-152.png">
+    <link sizes="167x167" rel="apple-touch-icon" href="/img/favicon-167.png">
+    <link sizes="180x180" rel="apple-touch-icon" href="/img/favicon-180.png">
+    <link sizes="192x192" rel="icon" href="/img/favicon-192.png">
+    <link sizes="128x128" rel="icon" href="/img/favicon-128.png">
+    <link sizes="32x32" rel="icon" href="/img/favicon-32.png">
+    <link
+      href="https://fonts.googleapis.com/css?display=swap&amp;family=Ruda%3A400%2C700%7CCherry%20Cream%20Soda" rel="preload" as="fetch" crossOrigin>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin>
+    <link href="https://fonts.googleapis.com/css?family=Source%20Code%20Pro" rel="preload" as="style">
+    <script>
+      (function(b){var a=document.createElement("link");a.href=b;a.rel="stylesheet";a.crossOrigin="crossorigin";document.head.appendChild(a)})('https://fonts.googleapis.com/css?family=Source%20Code%20Pro')
+    </script>
+    <style id="cpt">
+      
+      @font-face {
+        font-family: 'Cherry Cream Soda';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Cherry Cream Soda Regular'), local('CherryCreamSoda-Regular'), url('data:application/font-woff2;base64,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') format('woff2');
+      }
+      
+    </style>
+    <script>
+      (function(){var b=/url\('([\s\S]+?)'\)/.exec(document.head.querySelector("#cpt").textContent);if(b){var a=document.createElement("link");a.rel="preload";a.as="font";a.href=b[1];document.head.appendChild(a)}})()
+    </script>
+    <script>(function(h,r){var a=Object.keys(h),c=!0;"CSS"in window&&"supports"in CSS?(a=a.reduce(function(k,b){var l=h[b];b=b.split("|");for(var m=!1,d={},f=0;f<b.length;d={a:d.a},f++)if(d.a=b[f],l.map(function(n){return function(e){e=e.split("|");for(var p=!1,g=0;g<e.length;g++){var q=e[g];if(CSS.supports(n.a,q)){p=!0;break}else k.push(n.a+": "+q)}return p}}(d)).filter(Boolean).length==l.length){m=!0;break}m||(c=!1);return k},[]),a.length?c&&console.log("\ud83d\udcbf Browser does not support CSS properties: %s",
+a.join("\n "),"but supports alternatives."):console.log("\ud83d\udcbd Browser supports all modern CSS properties.")):(c=!1,console.log("\ud83d\udce0 Browser does not support CSS checks."));c||(a=document.createElement("link"),a.rel="stylesheet",a.href=r,document.head.appendChild(a))})({"flex-grow|-ms-flex-positive":["1"],"box-shadow":["none"],"flex|-ms-flex":["0 0 100%"],"flex-basis|-ms-flex-preferred-size":["0"],"display":["flex|-ms-flexbox"],"hyphens|-webkit-hyphens|-ms-hyphens":["auto"],"flex-shrink|-ms-flex-negative":["0"],"flex-wrap|-ms-flex-wrap":["wrap"],"box-sizing":["border-box"],"flex-direction|-ms-flex-direction":["column"]}, '/css/combined-prefixes.css')</script>
+    <script>
+      (function(q,k){function x(a){for(var f=/url\((.+?)\).*?;\s+unicode-range: (.+?);/g,b={},d=[],h;h=f.exec(a);){var r=h[2];d.push({url:h[1],a:r});b[r]=1}b=Object.keys(b).reduce(function(c,e){var g=e.split(/,\s/).map(function(l){return l.replace("U+","\\u").replace("-","-\\u")}).join("").toLowerCase();c[e]=new RegExp("["+g+"]");return c},{});var t=document.body?document.body.textContent:"",y=t?Object.keys(b).reduce(function(c,e){b[e].test(t)&&(c[e]=!0);return c},{}):Object.keys(b).reduce(function(c,
+      e){e in k&&(c[e]=!0);return c},{});m=d.filter(function(c){return c.a in y}).map(function(c){return c.url});if(!m.length)return u();var v=document.createDocumentFragment();m.forEach(function(c,e){var g=document.createElement("link");g.href=c;g.rel="preload";g.as="font";var l=e+1;;g.onload=function(){return u(l)};g.setAttribute("crossorigin",!0);v.appendChild(g)});document.head.appendChild(v)}k=void 0===k?{}:k;var n=document.createElement("link");if(function(a,
+      f){if(!a||!a.supports)return!1;try{return a.supports(f)}catch(b){return!1}}(n.relList,"preload")){var z=function(a,f,b){b=void 0===b?"":b;;var d=new XMLHttpRequest;d.onreadystatechange=function(){4==d.readyState&&(200==d.status?(f(d.responseText)):console.error("Error loading webfont: server responded with code %s at %s",d.status,a))};d.open("GET",a);try{d.send(null)}catch(h){console.error(h)}};
+      ;var p;(function(a,f){z(a.href,function(b){p=b;x(p)},"-"+(void 0===f?"link":f))})({href:q},"js");var m=[],w=0,u=function(a){w++;w>=m.length&&(a=document.createElement("style"),a.innerHTML=p,document.head.appendChild(a))}}else n.rel="stylesheet",n.href=q,document.head.appendChild(n)})('https://fonts.googleapis.com/css?display=swap&family=Ruda%3A400%2C700%7CCherry%20Cream%20Soda', {"U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD":true})
+    </script>
+    <link rel="stylesheet" href="/css/combined.css">
+    <style>
+      .no-js [data-io] { display: none!important }
+      #Content{font-size:1.3rem}#no-more-babel>span:hover{mix-blend-mode:hard-light;background:#4b321cb3}@media (max-width:767px){#no-more-babel{padding:.5rem}#no-more-babel>span:hover{color:white}}#babel-gone{top:1rem;right:1rem;color:#14597b}@media (min-width:992px){#babel-gone{font-size:3rem;top:2rem;right:2rem}}@media (min-width:768px){#no-more-babel{position:absolute;top:6rem;right:1.5rem;width:13rem;color:white;font-size:.95rem}}@media (min-width:992px){#no-more-babel{top:9rem;right:1.5rem;width:18rem;font-size:1.2rem}}@media (min-width:1200px){#no-more-babel{top:15rem;right:6rem;width:19rem;font-size:1.2rem;transform:skew(-27deg,0deg);-webkit-transform:skew(-27deg,0deg);-ms-transform:skew(-27deg,0deg);-o-transform:skew(-27deg,0deg)}}
+    </style>
+    <noscript>
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?display=swap&amp;family=Cherry%20Cream%20Soda&amp;text=Www.compiler.page">
+      <link rel="stylesheet" href="/css/combined-prefixes.css">
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?display=swap&amp;family=Ruda%3A400%2C700%7CCherry%20Cream%20Soda">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source%20Code%20Pro">
+    </noscript>
+    <script defer src="/js/polyfill/intersection-observer.js"></script>
+    <script defer src="/js/images.js"></script>
+    <script crossorigin data-src="/preact/dist/preact.min.js"></script>
+    <script crossorigin data-src="/comps/index.js"></script>
+    <script>
+      document.documentElement.classList.remove("no-js")
+    </script>
   </head>
-  <body>
-    <h1>GitHub Docs Placeholder</h1>
+  <body class="b-Mk b-Ol b-Op">
+    
+    
+    <main class="b-Xl" role="main">
+      <div class="b-z" id="Content">
 
-    <p>
-      Depack: Bundler & Compiler.
+<div class="b-B">
+  <div class="b-C b-Nq b-P">
+    <img class="b-t" style="width:100%" alt="depack" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1140' height='400'/%3E" data-io>
+    <noscript><img class="b-t" style="width:100%" alt="depack" src="/pages/index/img/sun.png"></noscript>
+  </div>
+</div>
+
+<div class="b-B">
+  <div class="b-D">
+    <h1 id="depack">Depack</h1>
+    <p>Traditional Web Bundler. De-mystified.</p>
+  </div>
+</div>
+
+
+<div class="b-B">
+  <div class="b-C b-Nq b-tp b-P">
+    <video autoplay loop muted style="width:100%" src="pages/index/img/babel-gone.mp4"></video>
+    <h2 class="b-up" id="babel-gone">Babel &mdash; Gone.</h2>
+    <p class="b-eC" id="no-more-babel">
+      <span>No </span>
+      <span>more </span>
+      <span>Babel. </span>
+      <span>Through </span>
+      <span>years, </span>
+      <span>the </span>
+      <span>industry </span>
+      <span>has </span>
+      <span>been </span>
+      <span>transformed </span>
+      <span>into </span>
+      <span>a </span>
+      <span>monoculture </span>
+      <span>where </span>
+      <span>everybody </span>
+      <span>has </span>
+      <span>only </span>
+      <span>one </span>
+      <span>solution. </span>
+      <span>Such </span>
+      <span>monopoly </span>
+      <span>leads </span>
+      <span>to </span>
+      <span>unfair </span>
+      <span>distribution </span>
+      <span>of </span>
+      <span>resources </span>
+      <span>and </span>
+      <span>inadequate </span>
+      <span>development </span>
+      <span>of </span>
+      <span>the </span>
+      <span>scene. </span>
+      <span>By </span>
+      <span>increasing </span>
+      <span>the </span>
+      <span>competition, </span>
+      <span>we're </span>
+      <span>able </span>
+      <span>to </span>
+      <span>challenge </span>
+      <span>the </span>
+      <span>&quot;web </span>
+      <span>standards </span>
+      <span>church&quot; </span>
+      <span>and </span>
+      <span>explore </span>
+      <span>other </span>
+      <span>states </span>
+      <span>of </span>
+      <span>Art. </span>
     </p>
+  </div>
+</div>
+
+</div>
+    </main>
+    <footer class="b-ns">
+      &copy; <a href="https://www.artd.eco">Art Deco™</a>, 2020
+    </footer>
+    <script>(function(){function b(){if(0<c.length){var a=c.shift();a.src=a.getAttribute("data-src");a.removeAttribute("data-src");a.onload=b;a.onerror=function(){console.warn("Could not load script %s",a.src)}}}var c=Array.prototype.slice.call(document.querySelectorAll("script[data-src]"));b()})()</script>
   </body>
 </html>

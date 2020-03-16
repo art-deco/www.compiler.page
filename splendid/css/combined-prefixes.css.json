@@ -1,0 +1,32 @@
+{
+  "flex-grow|-ms-flex-positive": [
+    "1"
+  ],
+  "box-shadow": [
+    "none"
+  ],
+  "flex|-ms-flex": [
+    "0 0 100%"
+  ],
+  "flex-basis|-ms-flex-preferred-size": [
+    "0"
+  ],
+  "display": [
+    "flex|-ms-flexbox"
+  ],
+  "hyphens|-webkit-hyphens|-ms-hyphens": [
+    "auto"
+  ],
+  "flex-shrink|-ms-flex-negative": [
+    "0"
+  ],
+  "flex-wrap|-ms-flex-wrap": [
+    "wrap"
+  ],
+  "box-sizing": [
+    "border-box"
+  ],
+  "flex-direction|-ms-flex-direction": [
+    "column"
+  ]
+}

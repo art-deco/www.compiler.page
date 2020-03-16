@@ -1,0 +1,58 @@
+#Content {
+  font-size: 1.3rem;
+}
+
+#no-more-babel > span:hover {
+  mix-blend-mode: hard-light;
+  background: #4b321cb3;
+}
+
+@media (max-width: 767px) {
+  #no-more-babel {
+    padding: .5rem;
+  }
+  #no-more-babel > span:hover {
+    color: white;
+  }
+}
+
+#babel-gone {
+  top: 1rem;
+  right: 1rem;
+  color: #14597b;
+}
+
+@media (min-width: 992px) {
+  #babel-gone {
+    font-size: 3rem;
+    top: 2rem;
+    right: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  #no-more-babel {
+    position: absolute;
+    top: 6rem;
+    right: 1.5rem;
+    width: 13rem;
+    color: white;
+    font-size: .95rem;
+  }
+}
+@media (min-width: 992px) {
+  #no-more-babel {
+    top: 9rem;
+    right: 1.5rem;
+    width: 18rem;
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  #no-more-babel {
+    top: 15rem;
+    right: 6rem;
+    width: 19rem;
+    font-size: 1.2rem;
+    transform: skew(-27deg, 0deg);
+  }
+}

@@ -1,0 +1,266 @@
+/*# A debug pretty version for visual diffs */
+@keyframes _fadeIn {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes _fadeIn {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes _fadeOut {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes _fadeOut {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+*::before {
+  box-sizing: border-box;
+}
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+footer, main {
+  display: block;
+}
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+h1, h2 {
+  margin-top: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+h1, h2 {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width:576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width:768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width:992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width:1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.col-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.flex-column {
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+.flex-shrink-0 {
+  -ms-flex-negative: 0 !important;
+  flex-shrink: 0 !important;
+}
+.position-relative {
+  position: relative !important;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.h-100 {
+  height: 100% !important;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.mt-auto {
+  margin-top: auto !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+@media print {
+  * {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  *::before {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  *::after {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  a:not(.btn) {
+    text-decoration: underline;
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  h2 {
+    orphans: 3;
+    widows: 3;
+    page-break-after: avoid;
+  }
+@page {
+    size: a3;
+  }
+  body, .container {
+    min-width: 992px !important;
+  }
+}
+.SectionBreak {
+  text-align: center;
+}
+.hljs {
+  font-size: larger;
+}
+.right-column {
+  line-height: 1.5rem;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+li.Active {
+  font-weight: 700;
+}
+.left-column ul {
+  list-style-type: none;
+}
+.tm, .tm2 {
+  font-family: 'Source Code Pro' , monospace;
+}
+.tm {
+  background-color: lightgreen;
+}
+.tm2 {
+  background-color: lightcoral;
+}
+body {
+  font-family: 'Ruda' , sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cherry Cream Soda' , sans-serif;
+}
+footer {
+  padding: 1em;
+  border-top: 1px dashed;
+}
+#Content {
+  box-shadow: 0 -10px 7px 2px #ffdb9a;
+  border: 1px solid #d2d2d2;
+}

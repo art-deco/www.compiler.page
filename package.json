@@ -33,7 +33,7 @@
   "homepage": "https://www.compiler.page",
   "devDependencies": {
     "documentary": "^1.37.1",
-    "splendid": "^1.17.3",
+    "splendid": "^1.18.1",
     "zoroaster": "^4.3.0"
   }
 }

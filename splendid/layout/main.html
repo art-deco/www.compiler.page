@@ -4,15 +4,9 @@
   <body d-flex flex-column h-100>
     <!-- ajax is disabled atm because components don't get reinitialised -->
     <!-- <ajax-loader /> -->
-    <main role="main" flex-shrink-0>
-      <container>
-        <row>
-          <block-left-column/>
-          <!-- Everything inside of #Content will be ajaxed -->
-          <column class="right-column" md-9 mb-3 id="Content">
-            {{ content }}
-          </column>
-        </row>
+    <main role="main" flex-shrink-0 >
+      <container id="Content">
+        {{ content }}
       </container>
     </main>
     <block-footer />
