@@ -1,12 +1,12 @@
-# my-new-package
+# @artdeco/www.compiler.page
 
-{{ description }}
+Depack: Bundler & Compiler.
 
-A new website made with [Splendid][1]: {{ URL }}.
+A new website made with [Splendid][1]: https://www.compiler.page.
 
 ## Copyright
 
-(c) [{{ trademark }}][2] {{ year }}
+(c) [Art Deco™][2] 2020
 
 [1]: https://www.npmjs.com/package/splendid
-[2]: {{ website }}
+[2]: https://www.artd.eco

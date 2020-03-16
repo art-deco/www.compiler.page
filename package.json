@@ -1,7 +1,7 @@
 {
-  "name": "my-new-package",
+  "name": "@artdeco/www.compiler.page",
   "version": "0.0.0",
-  "description": "{{ description }}",
+  "description": "Depack: Bundler & Compiler.",
   "scripts": {
     "t": "zoroaster -a",
     "test": "yarn t test/spec test/mask",
@@ -15,17 +15,22 @@
   "files": [],
   "repository": {
     "type": "git",
-    "url": "{{ repo.git_url }}"
+    "url": "git://github.com/art-deco/www.compiler.page.git"
   },
   "keywords": [
-    "{{ keywords }}"
+    "art-deco",
+    "compiler",
+    "bundler",
+    "web",
+    "js",
+    "css"
   ],
-  "author": "{{ author_name }} <{{ author_email }}>",
-  "license": "{{ license_spdx }}",
+  "author": "Anton <anton@adc.sh>",
+  "license": "AGPL-3.0",
   "bugs": {
-    "url": "{{ repo.html_url }}/issues"
+    "url": "https://github.com/art-deco/www.compiler.page/issues"
   },
-  "homepage": "{{ URL }}",
+  "homepage": "https://www.compiler.page",
   "devDependencies": {
     "documentary": "^1.37.1",
     "splendid": "^1.17.3",
