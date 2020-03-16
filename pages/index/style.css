@@ -2,9 +2,16 @@
   font-size: 1.3rem;
 }
 
-#no-more-babel > span:hover {
+#no-more-babel span:hover {
   mix-blend-mode: hard-light;
   background: #4b321cb3;
+}
+#no-more-babel > div {
+  display: none;
+  shape-outside: polygon(0 0, 34% 0, 0 100%);
+  width: 360px;
+  height: 350px;
+  float: left;
 }
 
 @media (max-width: 767px) {
@@ -48,11 +55,14 @@
   }
 }
 @media (min-width: 1200px) {
+  #no-more-babel > div {
+    display: block;
+  }
   #no-more-babel {
     top: 15rem;
     right: 6rem;
     width: 19rem;
     font-size: 1.2rem;
-    transform: skew(-27deg, 0deg);
+    /* transform: skew(-27deg, 0deg); */
   }
 }
