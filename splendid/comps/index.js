@@ -2,7 +2,7 @@ import makeClassGetter from './__mcg'
 const renameMaps = {  }
 import { Component, render, h } from '@externs/preact'
 import { makeIo, init, start } from './__competent-lib'
-import Animation from '../components/animation.js'
+import Animation from '../../node_modules/@lemuria/animation/build/components/animation.js'
 import Ellipsis from '../components/ellipsis.jsx'
 
 const __components = {

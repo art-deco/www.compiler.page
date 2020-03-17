@@ -9,7 +9,9 @@ const config = {
   ],
   pages: '../pages',
   elements: ['elements'],
+  // components: ['../node_modules/@lemuria/animation/build/components'],
   blocks: ['blocks'],
+  packages: ['@lemuria/animation'],
   // which prefixes to keep in the main CSS
   prefixes: ['-webkit-hyphens', '-ms-hyphens'],
   // for sitemap and social-buttons

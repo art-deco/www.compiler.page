@@ -25,6 +25,15 @@
   resolved "https://registry.yarnpkg.com/@lemuria/absolute-proxy/-/absolute-proxy-1.0.2.tgz#e75d499398d883d96683320ed638955deb45635f"
   integrity sha512-fBG7iYvUau85Fe4aaWosnpo4re9hNMGZVCoXIox2OBfSjR4akzJk9OyNR97X+cd1w2S94as+aHr+l70kM/vaqg==
 
+"@lemuria/animation@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@lemuria/animation/-/animation-0.1.3.tgz#64801c937f92c5313d22c92c332a07443cee457a"
+  integrity sha512-cN+D0ibB5I+1RwFTtR4iKeTyBIo+oUlVvdLzEnd3Qu09KlN+EhBo7A1UKMv4XOcnrhbP/KVEThFPnHn93gmhpg==
+  dependencies:
+    "@artdeco/snapsvg-animator" "^0.3.1"
+    "@lemuria/load-scripts" "^1.2.0"
+    snapsvg "^0.5.1"
+
 "@lemuria/font@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@lemuria/font/-/font-1.0.4.tgz#03b3c1e90b1f7beb4e981220b28fd2848a090150"
@@ -129,10 +138,10 @@ splendid-web-components@^1.0.0:
   resolved "https://registry.yarnpkg.com/splendid-web-components/-/splendid-web-components-1.0.0.tgz#6bc9cbef8254f96c2102a00e979e4dc3537c9cbb"
   integrity sha512-oZOB2VaEoLEA/WS+SX5KybIjsm1ua3dzkqWaE1C1CAaI/hhCohA//u0WyF7YGOyph164++Wdb8dpoA0lqK5N1g==
 
-splendid@^1.18.1:
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/splendid/-/splendid-1.18.1.tgz#d7e54a175abf1968d7964abb9c412e1a2634f92c"
-  integrity sha512-Mq9sXD+hVJ8tYrKhld6ioSylomLkH85Klok88mY7F4XqNzjIgK/i0Chkd9mr3gN7qgo63rd0BlrEPV7jwcAuYg==
+splendid@^1.19.0:
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/splendid/-/splendid-1.19.0.tgz#4d196ad5297834ea94310093b23ae7ced20473a0"
+  integrity sha512-Fcfu2HvCKKs3SB0/MD6VjG1gd85PLBOwEarVGll9JNLqGGqXzXw1AxSsQ1eHODTdgBn+dnCinRyJ3NnQJpycHw==
   dependencies:
     "@externs/preact" "^1.3.1"
     "@idio/idio" "^1.5.1"
