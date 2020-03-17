@@ -1,17 +1,20 @@
 <critical-path-font text="Depack" family="Cherry Cream Soda"/>
 
 <add-file>./video/clouds.mp4</add-file>
+<add-file>./video/clouds.webm</add-file>
 <add-file>./video/clouds.jpg</add-file>
 
 <row>
-  <column col-12 no-gutters p-0 position-relative overflow-hidden>
-    <video top="0" left="0" autoplay loop muted position-absolute style="width:100%" poster="pages/index/video/clouds.jpg" src="pages/index/video/clouds.mp4"></video>
+  <column col-12 no-gutters p-0 position-relative overflow-hidden background-color="#C1BFCE">
+    <video playsinline top="0" left="0" autoplay loop muted position-absolute style="width:100%" poster="pages/index/video/clouds.jpg">
+      <source src="pages/index/video/clouds.webm" type="video/webm">
+      <source src="pages/index/video/clouds.mp4" type="video/mp4">
+    </video>
     <animation
       src="./img/header.png" alt="depack header sun" width="1140" height="400"
       path="../../flash/animate/header.json" noscript="./img/header2.gif" />
-
     <a href="https://www.artd.eco">
-      <img border="1px solid #fec34d" mix-blend-mode="color-burn" width="100px" src="./img/artdeco.png" alt="art deco logo" position-absolute top="1rem" left="1rem" />
+      <img id="Logo" src="./img/artdeco2.png" alt="art deco logo" position-absolute top="1rem" left="1rem" />
     </a>
   </column>
 </row>
@@ -27,18 +30,21 @@
 </row>
 
 <add-file>./video/babel-gone.mp4</add-file>
-
+<add-file>./video/babel-gone.webm</add-file>
 
 <row>
   <column col-12 no-gutters p-0 position-relative>
-    <video autoplay loop muted style="width:100%" src="pages/index/video/babel-gone.mp4"></video>
+    <video playsinline autoplay loop muted style="width:100%" >
+      <source src="pages/index/video/babel-gone.webm" type="video/webm">
+      <source src="pages/index/video/babel-gone.mp4" type="video/mp4">
+    </video>
 
     <h2 id="babel-gone" position-absolute >Babel &mdash; Gone.</h2>
     <div id="no-more-babel">
       <div></div>
       <p text-justify>
         <split-p>
-          No more Babel. Through years, the industry has been transformed into a monoculture where everybody has only one solution. Such monopoly leads to unfair distribution of resources and inadequate development of the scene. By increasing the competition, we're able to challenge the "web standards church" and explore other states of Art.
+          No more Babel. Through years, the industry has been transformed into a monoculture where everybody has only one solution. Such monopoly leads to unmerited distribution of resources and inadequate development of the scene. By increasing the competition, we're able to challenge the "web standards church" and explore other states of Art.
         </split-p>
       </p>
     </div>

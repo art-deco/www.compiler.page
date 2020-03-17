@@ -1,7 +1,9 @@
 #Content {
   font-size: 1.3rem;
 }
-
+#Logo {
+  width: 50px;
+}
 #no-more-babel span:hover {
   mix-blend-mode: hard-light;
   background: #4b321cb3;
@@ -29,14 +31,10 @@
   color: #14597b;
 }
 
-@media (min-width: 992px) {
-  #babel-gone {
-    font-size: 3rem;
-    top: 2rem;
-    right: 2rem;
-  }
-}
 @media (min-width: 768px) {
+  #Logo {
+    width: 75px;
+  }
   #no-more-babel {
     position: absolute;
     top: 6rem;
@@ -47,6 +45,14 @@
   }
 }
 @media (min-width: 992px) {
+  #Logo {
+    width: 100px;
+  }
+  #babel-gone {
+    font-size: 3rem;
+    top: 2rem;
+    right: 2rem;
+  }
   #no-more-babel {
     top: 9rem;
     right: 1.5rem;
